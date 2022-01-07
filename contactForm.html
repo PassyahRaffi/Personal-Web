@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Contact Form</title>
+    </head>
+    <body>
+        
+        <!-- OPENING NAVBAR -->
+        <nav>
+        
+            <div class="left">
+                
+                <a href="https://dumbways.id/"><img  src="assets/logo dumbway.png" alt="dumbways" /></a>
+                
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                </ul>
+                
+            </div>
+            
+            <div class="right">
+                <a href="contactForm.html">Contact Me</a>
+            </div>
+            
+        </nav>
+        <!-- CLOSED NAVBAR -->
+
+        <!-- OPENING FORM -->
+        <div class="container">
+            <form action="">
+                <h2>Contact Me</h2>
+
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="" id="name" placeholder="Input Name">
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="" id="email" placeholder="Input Email">
+                </div>
+
+                <div>
+                    <label for="number">Phone Number</label>
+                    <input type="number" name="" id="number" placeholder="Input Number">
+                </div>
+
+                <div>
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <option value="Select Here">Select Here</option>
+                        <option value="Privacy Police">Privacy Police</option>
+                        <option value="Problem With Our Site">Problem With Our Site</option>
+                        <option value="Questions On Order">Questions On Order</option>
+                        <option value="Order Questions">Order Questions</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" maxlength="300" placeholder="Input Message"></textarea>
+                </div>
+                
+                <div class="checkbox">
+                    <div>
+                        <label for="checkbox">Skill : </label>
+                        <input type="checkbox" name="" id="html" value=" HTML">
+                        <label for="html">HTML</label>
+
+                        <input type="checkbox" name="" id="css" value=" CSS">
+                        <label for="css">CSS</label>
+
+                        <input type="checkbox" name="" id="js" value=" JS">
+                        <label for="js">JAVASCRIPT</label>
+                    </div>
+                </div>
+
+                <!-- <a href="mailto:passyah11@gmail.com?subject=Test Subject&body=Hallo Passyah">Send Email</a> -->
+                <button type="button" onclick="submitData()">Submit</button>
+                <!-- artinya  -->
+                <!-- Ketika saya klik tombol button maka jalankan function submitData() -->
+            </form>
+        </div>
+        <!-- CLOSED FORM -->
+
+        <!-- SCRIPT JAVASCRIPT -->
+        <script src="form.js"></script>
+    </body>
+</html>
