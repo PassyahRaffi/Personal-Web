@@ -24,7 +24,6 @@ function addBlog(event) {
     renderBlog()
   }
   
-  
 // MANIPULATION HTML / DOM
 function renderBlog() {
     let contentContainer = document.getElementById("contents");
@@ -104,6 +103,12 @@ function firstBlogContent() {
      </div>`
  }
 
+// console.log(waktu.getDate()); // tanggal
+// console.log(waktu.getMonth()); // bulan dalam bentuk index 0 artinya januari, 1 artinya febuari
+// console.log(waktu.getFullYear()); // tahun
+// console.log(waktu.getHours()); // jam
+// console.log(waktu.getMinutes()); // menit
+
 let month = ["Januari", "Febuari", "Maret", "April", "Mei", "Juni", "Juli", "September", "Oktober", "November", "Desember"];
 
 function getFullTime(time) {
@@ -129,8 +134,8 @@ function getDistanceTime(time) {
 
   let timeNow = new Date();
 
-  let distance = timeNow - timePost; // milisecond
-  
+  let distance = timeNow - timePost; // result milisecond
+  // 1 second = 1000 miliscond
 
   // CONVERT TO DAY
   let milisecond = 1000; // dalam 1 detik
