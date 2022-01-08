@@ -31,7 +31,7 @@ function renderBlog() {
     contentContainer.innerHTML = firstBlogContent();
 
     for (let i = 0; i < blogs.length; i++) {
-        contentContainer.innerHTML += `<div id="contents" class="blog-list">
+        contentContainer.innerHTML += /* html */`<div id="contents" class="blog-list">
         <!-- dynamic content would be here -->
         <div class="blog-list-item">
           <div class="blog-image">
@@ -67,7 +67,7 @@ function renderBlog() {
 }
 
 function firstBlogContent() {
-  return `<div class="blog-list-item">
+  return /* html */`<div class="blog-list-item">
            <div class="blog-image">
              <img src="assets/blog-img.png" alt="" />
            </div>
