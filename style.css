@@ -463,6 +463,7 @@ input[type=checkbox] {
     border-radius: 4px;
     background: #dbdbdb;
     color: black;
+    cursor: pointer;
   }
 
   .blog .blog-list .btn-group .btn-edit:hover {
@@ -479,13 +480,15 @@ input[type=checkbox] {
   }
 
   .blog .blog-list .btn-group .btn-post:hover {
-      color: red;
-      background-color: white;
+    color: red;
+    background-color: white;
+    cursor: pointer;
   }
   
   .blog .blog-list h1 a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
   }
   
   .blog .blog-list .detail-blog-content {
@@ -542,10 +545,63 @@ input[type=checkbox] {
   }
   /* CLOSED BLOG */
   
+/* DISPLAY RESPONSIVE */
+
+/* dibawah 1500px ini akan bekerja */
+@media screen and (max-width: 1500px) {
+    nav ul {
+        display: flex;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .container .section {
+        display: block;
+        margin: 50px auto;
+        width: 80%;
+        height: 70%;
+    }
+
+    .container .section .right {
+        display: block;
+        width: 80%;
+        height: 70%;
+    }
+
+    .section .right .social-media {
+        padding-bottom: 50px;
+    }
+
+    .blog {
+        display: block;
+        width: 100%;   
+    }
+
+    .form-container {
+        display: block;
+    }
+
+    .container {
+        display: flex;
+        margin-top: 15px;
+        height: 90vh;
+    }
+
+}
+
 
 /* dibawah 600px ini akan bekerja */
 @media screen and (max-width: 600px) {
-    body {
+    nav ul {
+        display: flex;
+    }
+
+    nav .right a {
+        display: flex;
+        justify-content: flex-end; 
+        text-align: center;
     }
 
     .container {
@@ -571,11 +627,23 @@ input[type=checkbox] {
         /* diberikan agar section right skill-container default kebawah */
     }
 
+    .section .right .social-media {
+        padding-bottom: 50px;
+    }
 
-/* diatas 600px code dibawah ini di jalankan */
-@media screen and (min-width: 600px) {
-    body {
-        /* background-color: orangered; */
+    .blog .blog-form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-container {
+        display: flex;
+    }
+
+    .container {
+        display: flex;
+        margin: 15px 0px;
+        width: 100%;
     }
 
 }

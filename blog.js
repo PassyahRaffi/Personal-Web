@@ -53,10 +53,8 @@ function renderBlog() {
             <p>
               ${blogs[i].content}
             </p>
-            <div style="text-align: right;">
+            <div style="text-align: right; font-weight: bold;">
               <span style="font-size: 13px; color: grey;">
-              <br>
-              <br>
               ${getDistanceTime(blogs[i].postAt)}
               </span>
           </div>
@@ -92,9 +90,7 @@ function firstBlogContent() {
                numquam! Deleniti maiores expedita eaque deserunt quaerat! Dicta,
                eligendi debitis?
                </p>
-              <div style="text-align: right;">
-              </br>
-              </br>
+              <div style="text-align: right; font-weight: bold;">
               <span style="font-size: 13px; color: grey;">
                 1 day ago
               </span>
