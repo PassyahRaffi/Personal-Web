@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: lightblue;
+    background-color: rgb(223, 230, 233);
 }
 
 
 /* OPENING NAVBAR */
 nav {
-    background-color: black;
+    background-color: rgb(45, 52, 54);
     display: flex;
     height: 7vh;
 }
@@ -35,7 +35,7 @@ nav .left ul li a {
 
 /* NAV LEFT A:HOVER */
 nav .left ul li a:hover {
-    color: red;
+    color: orangered;
 }
 
 nav .right {
@@ -58,7 +58,7 @@ nav .right a {
 /* NAV RIGHT A:HOVER */
 nav .right a:hover {
     background-color: white;
-    color: red;
+    color: orangered;
 }
 /* CLOSED NAVBAR */
 
@@ -95,7 +95,7 @@ nav .right a:hover {
 }
 
 .section .left {
-    background-color: rgb(221, 116, 116);
+    background-color: rgb(178, 190, 195);
     color: black;
     flex: 30%;
     border-radius: 8px;
@@ -112,7 +112,7 @@ table {
 
 table th, td {
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid orangered;
     width: 70%;
 }
 
@@ -132,7 +132,7 @@ table th, td {
 }
 
 .section .left .iconSkill a:hover img {
-    background-color: red;
+    background-color: rgb(223, 230, 233);
 }
 
 .section .left .icon {
@@ -212,34 +212,39 @@ table th, td {
 .social-media .one a {
     margin-right: 30px;
     background-color: darkred;
+    border-radius: 10px;
 }
 
 /* MEDIA TWO */
 .social-media .two a {
     margin-right: 30px;
     background-color: darkmagenta;
+    border-radius: 10px;
 }
 
 /* MEDIA THREE */
 .social-media .three a {
     margin-right: 30px;
     background-color: darkgreen;
+    border-radius: 10px;
 }
 
 /* MEDIA FOUR */
 .social-media .four a {
     margin-right: 30px;
     background-color: darkblue;
+    border-radius: 10px;
 }
 
 /* MEDIA FIVE */
 .social-media .five a {
     margin-right: 30px;
-    background-color: darkgoldenrod;
+    background-color: orangered;
+    border-radius: 10px;
 }
 
 .social-media .content-media a:hover{
-    background-color: white;
+    background-color: rgb(223, 230, 233);
 }
 /* CLOSED SOCIAL MEDIA */
 
@@ -252,7 +257,7 @@ table th, td {
 
 /* OPENING FORM */
 form {
-    background-color: rgb(221, 116, 116);
+    background-color: rgb(178, 190, 195);
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 30px black;
@@ -313,7 +318,7 @@ input[type=checkbox] {
     margin-left: 180px;
     margin-right: 135px; 
     border-radius: 10px; 
-    background-color: black;
+    background-color: rgb(45, 52, 54);
     color:white;
     border: none;
     cursor: pointer;
@@ -322,7 +327,7 @@ input[type=checkbox] {
 
 .container button:hover {
     background-color: white;
-    color: red;
+    color: rgb(45, 52, 54);
 }
 /* CLOSED FORM */
 
@@ -400,7 +405,7 @@ input[type=checkbox] {
     margin-top: 50px;
     padding: 8px 20px;
     font-size: 17px;
-    background-color: black;
+    background-color: rgb(45, 52, 54);
     border-radius: 8px;
     border: none;
     color: white;
@@ -409,11 +414,11 @@ input[type=checkbox] {
 
   .blog-form form button:hover {
     background-color: white;
-    color: red;
+    color: rgb(45, 52, 54);
 }
   
   .blog hr {
-    border: 1px solid rgb(221, 116, 116);;
+    border: 1px solid orangered;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
@@ -432,7 +437,7 @@ input[type=checkbox] {
     width: 80%;
     padding: 15px;
     margin-bottom: 20px;
-    border: 2px solid rgb(221, 116, 116);;
+    border: 2px solid orangered;
     border-radius: 8px;
     display: flex;
   }
@@ -461,26 +466,26 @@ input[type=checkbox] {
     padding: 5px 10px;
     border: 0;
     border-radius: 4px;
-    background: #dbdbdb;
-    color: black;
+    background: rgb(45, 52, 54);
+    color: white;
     cursor: pointer;
   }
 
   .blog .blog-list .btn-group .btn-edit:hover {
-      color: white;
-      background-color: black;
+      color: rgb(45, 52, 54);
+      background-color: white;
   }
   
   .blog .blog-list .btn-group .btn-post {
     padding: 5px 10px;
     border: 0;
     border-radius: 4px;
-    background: red;
+    background: orangered;
     color: white;
   }
 
   .blog .blog-list .btn-group .btn-post:hover {
-    color: red;
+    color: orangered;
     background-color: white;
     cursor: pointer;
   }
