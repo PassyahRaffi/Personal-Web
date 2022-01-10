@@ -53,7 +53,8 @@ function renderBlog() {
             <p>
               ${blogs[i].content}
             </p>
-            <div style="text-align: right; font-weight: bold;">
+            <br>
+            <div style="text-align: left; font-weight: bold;">
               <span style="font-size: 13px; color: grey;">
               ${getDistanceTime(blogs[i].postAt)}
               </span>
@@ -90,7 +91,8 @@ function firstBlogContent() {
                numquam! Deleniti maiores expedita eaque deserunt quaerat! Dicta,
                eligendi debitis?
                </p>
-              <div style="text-align: right; font-weight: bold;">
+              <br>
+              <div style="text-align: left; font-weight: bold;">
               <span style="font-size: 13px; color: grey;">
                 1 day ago
               </span>
@@ -134,11 +136,11 @@ function getDistanceTime(time) {
   // 1 second = 1000 miliscond
 
   // CONVERT TO DAY
-  let milisecond = 1000; // dalam 1 detik
-  let secondInHours = 3600; // dalam 1 jam (berapa detik 60*60)
-  let hourseInDay = 23 // dalam 1 hari (berapa jam)
+  let milisecond = 1000; // dalam 1 detik = 1000 detik
+  let secondInHours = 3600; // dalam 1 jam (berapa detik 60*60) = 3600 detik
+  let hourseInDay = 23 // dalam 1 hari (berapa jam) = 23 jam (hitungan default)
   let second = 60; // dalam 1 detik
-  let minutes = 60; // dalam 1 menit
+  let minutes = 60; // dalam 1 menit = 60 detik
 
   let distanceDay = distance / (milisecond * secondInHours * hourseInDay);
 

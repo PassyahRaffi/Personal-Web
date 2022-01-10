@@ -13,6 +13,7 @@ nav {
     background-color: rgb(45, 52, 54);
     display: flex;
     height: 7vh;
+    font-weight: bold;
 }
 
 nav .left {
@@ -184,7 +185,7 @@ table th, td {
 }
 
 /* SKILL THREE */
-.section .right .skill-container .skillThree{
+.section .right .skill-container .skillThree {
     margin-right: 40px;
     padding: 10px;
 }
@@ -353,9 +354,7 @@ input[type=checkbox] {
     font-weight: 400;
   }
   
-  .blog-form form input,
-  textarea,
-  select {
+  .blog-form form input, textarea, select {
     width: 100%;
     font-size: 20px;
     font-weight: 400;
@@ -398,6 +397,7 @@ input[type=checkbox] {
   
   .blog-form form .button-group {
     text-align: right;
+    font-weight: bold;
   }
   
   .blog-form form button {
@@ -410,6 +410,10 @@ input[type=checkbox] {
     border: none;
     color: white;
     cursor: pointer;
+  }
+
+  .btn-edit, .btn-post {
+    font-weight: bold;
   }
 
   .blog-form form button:hover {
